@@ -15,6 +15,7 @@ AI & NLP: Hugging Face Sentence Transformers
 Database: Chroma Vector DB
 
 Others: PDF Generation (ReportLab), Git
+
 📂 Project Structure
 ├── data/                
 ├── embeddings.py        
