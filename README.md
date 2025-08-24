@@ -9,6 +9,7 @@ PDF Export – Download quotes as PDFs for sharing with clients.
 Streamlit Web Interface – Clean and interactive user interface.
 
 🛠 Tech Stack
+
 Frontend: Streamlit (Python)
 Backend: Python
 AI & NLP: Hugging Face Sentence Transformers
