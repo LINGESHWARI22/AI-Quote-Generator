@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Website development with hosting",
+    "price": 15000,
+    "description": "Full-stack website development with 1 year hosting included."
+  },
+  {
+    "name": "Mobile app development",
+    "price": 20000,
+    "description": "Cross-platform mobile application for Android and iOS."
+  },
+  {
+    "name": "Digital marketing package",
+    "price": 8000,
+    "description": "SEO, social media management, and ads campaign."
+  },
+  {
+    "name": "Interior cleaning",
+    "price": 200,
+    "description": "Deep cleaning of home interiors."
+  },
+  {
+    "name": "Plumbing repair",
+    "price": 350,
+    "description": "Fixing leaks, pipe replacements, and other plumbing work."
+  },
+  {
+    "name": "Electrical wiring",
+    "price": 500,
+    "description": "Electrical setup, rewiring, and maintenance."
+  }
+]
