@@ -1,4 +1,5 @@
 AI-Powered Quote Generator
+
 An AI-driven web application that generates professional service quotes instantly using semantic search. The system retrieves the most relevant service details, auto-fills pricing and descriptions, and allows users to download PDF quotes, streamlining client communication and saving time.
 
 🚀 Features
