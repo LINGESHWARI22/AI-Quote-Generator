@@ -17,6 +17,7 @@ Database: Chroma Vector DB
 Others: PDF Generation (ReportLab), Git
 
 📂 Project Structure
+
 ├── data/                
 ├── embeddings.py        
 ├── quote_generator.py   
