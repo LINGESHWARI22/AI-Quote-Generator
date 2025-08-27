@@ -1,11 +1,10 @@
-
 # quote_generator.py
 from embeddings import vector_db
 
 def generate_quote(query: str) -> dict:
     """
     Generate a quote (or service info) based on the user query.
-    Returns a dictionary with 'name', 'price', 'description'.
+    Returns a dictionary with 'name', 'price', 'description', and 'discount'.
     Uses the Chroma vector database created in embeddings.py.
     """
     try:
@@ -16,7 +15,8 @@ def generate_quote(query: str) -> dict:
             service_dict = {
                 "name": matched.get("name", "Unknown Service"),
                 "price": matched.get("price", 0),
-                "description": matched.get("description", "No description available.")
+                "description": matched.get("description", "No description available."),
+                "discount": 0  # Default discount (can be customized later)
             }
             return service_dict
         else:
